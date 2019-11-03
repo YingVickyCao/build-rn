@@ -43,4 +43,29 @@ npm run bundle-ios
 npm run bundle
 ```
 
-# test
+# COnfig TeamCity
+
+## Step NPM install
+
+```
+echo ‘ ---------->Step NPM install’
+pwd
+
+echo 'check npm,start'
+# npm get config get proxy
+# npm get config get https-proxy
+npm get config get respository
+echo 'check npm,end'
+
+# npm get config set proxy
+# npm get config set https-proxy
+npm get config set respository http://registry.npm.taobao.org/
+
+echo 'check npm,start'
+# npm get config get proxy
+# npm get config get https-proxy
+npm get config get respository
+echo 'check npm,end'
+
+echo ‘<----------Step NPM install’
+```
