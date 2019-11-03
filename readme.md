@@ -42,3 +42,5 @@ npm run bundle-ios
 # Only androdi + ios bundle
 npm run bundle
 ```
+
+# test
