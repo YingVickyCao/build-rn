@@ -29,3 +29,16 @@ https://jestjs.io/docs/en/troubleshooting#debugging-in-vs-code
   ]
 }
 ```
+
+# Build bundle
+
+```
+# Only android bundle
+npm run bundle-android
+
+# Only ios bundle
+npm run bundle-ios
+
+# Only androdi + ios bundle
+npm run bundle
+```
