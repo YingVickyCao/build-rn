@@ -5,6 +5,8 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest",
+    "jest-test": "jest --verbose",
+    "jest-test-coverage": "jest --coverage",
     "create-bundle-android": "react-native bundle --platform android --dev false --reset-cache --entry-file index.build.js --bundle-output _build/bundle/android/index.android.bundle",
     "create-bundle-ios": "react-native bundle --platform ios --dev false --reset-cache --entry-file index.build.js --bundle-output _build/bundle/ios/index.ios.bundle",
     "check-bundle-output-dir-android": "mkdir -p _build/bundle/android && rm -rf _build/bundle/android/*",
